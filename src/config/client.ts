@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Joanne Rogers", rating: 5, text: "We are absolutely delighted with the results of our new composite decking, expertly installed by Barney and his team. They replaced our old patio with great care and attention to detail, delivering a high-quality finish that has transformed …  ", date: "10 months ago" },
+    { name: "Monica Ray", rating: 5, text: "Our old patio was past its best and the constant weeding and sweeping was a real pain.  Barney came along to quote and immediately understood our poorly drawn plan and offered more suggestions that were very welcome.  His work and that of …  ", date: "5 months ago" },
+    { name: "Sam Jones", rating: 5, text: "Barney and his team were friendly, attentive and provided us with a good quality service. I have already recommended Constant Gardens to my neighbours and friends. …  ", date: "4 months ago" },
+    { name: "Rebecca Mills", rating: 5, text: "We love our new patio and fence! Barney and his team did a fantastic job, communication was great throughout and the work was completed quickly and to a high standard. From the beginning Barney was knowledgeable, professional and knew …  ", date: "9 months ago" },
+    { name: "John Marchant", rating: 5, text: "We first contacted Constant Gardens because they were fairly local specialists and had good reviews.  We are extremely pleased we did.  They designed and built a lovely new rear patio and steps for us on a very difficult sloping garden. …  ", date: "4 years ago" },
+    { name: "Tom Kilpatrick", rating: 5, text: "Amazing work from start to finish! Barney was professional, reliable & trustworthy throughout the job. Our finished garden has far exceeded our expectations. Friends and neighbours have already asked for Barney's details as he provides such an amicab", date: "5 years ago" },
+    { name: "Sandy Scrivener", rating: 5, text: "I can highly recommend Constant Gardens, they were extremely polite, hard working and have completed the job on time to my complete satisfaction. My gazebo looks great. Thank you very much. ", date: "8 months ago" },
+    { name: "Louise Glancy", rating: 5, text: "I would definitely recommend Constant Gardens, Barney snd Jack did a fantastic job of my new decking. ", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
